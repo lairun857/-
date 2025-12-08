@@ -1,4 +1,4 @@
-package cn.zwz.data.controller;
+﻿package cn.zwz.data.controller;
 
 import cn.zwz.basics.utils.*;
 import cn.zwz.basics.baseVo.Result;
@@ -15,7 +15,7 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Api(tags = "验证码接口")
 @RequestMapping("/zwz/common/captcha")

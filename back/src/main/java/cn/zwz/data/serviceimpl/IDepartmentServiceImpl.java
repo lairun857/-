@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.DepartmentMapper;
 import cn.zwz.data.entity.Department;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 部门 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IDepartmentServiceImpl extends ServiceImpl<DepartmentMapper, Department> implements IDepartmentService {

@@ -1,4 +1,4 @@
-package cn.zwz.data.vo;
+﻿package cn.zwz.data.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -6,7 +6,7 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 public class SmsSetting implements Serializable{

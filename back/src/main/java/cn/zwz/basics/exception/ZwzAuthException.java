@@ -1,11 +1,11 @@
-package cn.zwz.basics.exception;
+﻿package cn.zwz.basics.exception;
 
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;
 
 /**
  * InternalAuthenticationServiceException 异常处理类
- * @author 郑为中
+ * @author 灿
  */
 public class ZwzAuthException extends InternalAuthenticationServiceException {
 

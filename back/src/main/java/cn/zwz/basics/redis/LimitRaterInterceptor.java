@@ -1,4 +1,4 @@
-package cn.zwz.basics.redis;
+﻿package cn.zwz.basics.redis;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.basics.parameter.*;
@@ -24,7 +24,7 @@ import java.util.Objects;
 
 /**
  * 限流拦截器
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Component

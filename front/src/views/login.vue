@@ -1,85 +1,68 @@
-<template>
+﻿<template>
 <div class="login">
-    <Row justify="center" align="middle" @keydown.enter.native="submitLogin" style="height:100%">
-        <div class="loginUp">
-            <div class="loginLeft">
-                <img src="../assets/login/logo.png" alt="" srcset="">
-                <span class="line"></span>
-                <span class="title">高校固定资产管理系统</span>
-            </div>
+    <!-- Star Background -->
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <div class="login-container" @keydown.enter.native="submitLogin">
+        <div class="login-header">
+            <span class="tech-line"></span>
+            <span class="title">高校固定资产管理系统</span>
+            <span class="tech-line"></span>
         </div>
-        <div class="loginMiddle">
-            <div class="login-background">
-                <div class="loginBg"></div>
-                <div class="loginRight">
-                    <Row class="loginRow">
-                        <Tabs v-model="tabName" @on-click="changeTabName" class="loginTab">
-                            <TabPane label="账号密码登陆" name="userAndPassword">
-                                <Form ref="usernameLoginForm" :model="form" :rules="usernameLoginFormRules" class="form">
-                                    <FormItem prop="username" class="loginInput">
-                                        <Row>
-                                            <Input v-model="form.username" size="large" clearable placeholder="登陆账号" autocomplete="off">
-                                            <Icon class="iconfont icon-yonghu" slot="prefix" style="line-height:50px" />
-                                            </Input>
-                                        </Row>
-                                    </FormItem>
-                                    <FormItem prop="password">
-                                        <Input style="height:50px;line-height:50px" type="password" v-model="form.password" size="large" placeholder="请输入登陆密码" password autocomplete="off">
-                                        <Icon class="iconfont icon-mima1" slot="prefix" style="line-height:50px" />
-                                        </Input>
-                                    </FormItem>
-                                    <FormItem prop="imgCode">
-                                        <Row type="flex" justify="space-between" style="align-items: center;overflow: hidden;">
-                                            <Input v-model="form.imgCode" size="large" clearable placeholder="请输入验证码" :maxlength="10" class="input-verify" />
-                                            <div class="code-image" style="position:relative;font-size:12px;">
-                                                <Spin v-if="loadingCaptcha" fix></Spin>
-                                                <img :src="captchaImg" @click="getCaptchaImg" alt="验证码加载失败" style="width:110px;cursor:pointer;display:block" />
-                                            </div>
-                                        </Row>
-                                    </FormItem>
-                                </Form>
-                                <Row type="flex" justify="space-between" align="middle">
-                                    <Checkbox v-model="saveLogin" size="large">是否自动登陆</Checkbox>
-                                    <router-link to="/regist">
-                                        <a class="forget-pass">没有账号？点我注册</a>
-                                    </router-link>
-                                </Row>
-                                <Row>
-                                    <Button class="login-btn" type="primary" size="large" :loading="loading" @click="submitLogin" long>
-                                        <span v-if="!loading" style="letter-spacing:20px; font-weight:bold">登陆</span>
-                                        <span v-else>正在登陆...请稍后</span>
-                                    </Button>
-                                </Row>
-                            </TabPane>
-                            <TabPane label="企业微信扫码" name="mobile">
-                                <div id="qywxsmqywxsm"></div>
-                            </TabPane>
-                        </Tabs>
+        
+        <div class="login-card">
+            <div class="card-glow"></div>
+            <Tabs v-model="tabName" @on-click="changeTabName" class="loginTab">
+                <TabPane label="账号登陆" name="userAndPassword">
+                    <Form ref="usernameLoginForm" :model="form" :rules="usernameLoginFormRules" class="form">
+                        <FormItem prop="username">
+                            <Input v-model="form.username" size="large" clearable placeholder="请输入账号" autocomplete="off" class="tech-input">
+                                <Icon class="iconfont icon-yonghu" slot="prefix" />
+                            </Input>
+                        </FormItem>
+                        <FormItem prop="password">
+                            <Input type="password" v-model="form.password" size="large" placeholder="请输入密码" password autocomplete="off" class="tech-input">
+                                <Icon class="iconfont icon-mima1" slot="prefix" />
+                            </Input>
+                        </FormItem>
+                        <FormItem prop="imgCode">
+                            <Row type="flex" justify="space-between" align="middle">
+                                <Input v-model="form.imgCode" size="large" clearable placeholder="验证码" :maxlength="10" class="tech-input input-verify" />
+                                <div class="code-image">
+                                    <Spin v-if="loadingCaptcha" fix></Spin>
+                                    <img :src="captchaImg" @click="getCaptchaImg" alt="验证码" />
+                                </div>
+                            </Row>
+                        </FormItem>
+                    </Form>
+                    
+                    <div class="login-options">
+                        <Checkbox v-model="saveLogin" class="tech-checkbox">自动登陆</Checkbox>
+                        <router-link to="/regist" class="tech-link">注册账号</router-link>
+                    </div>
 
-                    </Row>
-                    <p class="loginBottom">
-                        ART YOUR DREAM
-                    </p>
-                </div>
-            </div>
+                    <Button class="tech-btn" type="primary" size="large" :loading="loading" @click="submitLogin" long>
+                        <span v-if="!loading">SYSTEM LOGIN</span>
+                        <span v-else>ACCESSING...</span>
+                    </Button>
+                </TabPane>
+                
+                <TabPane label="扫码登陆" name="mobile">
+                    <div id="qywxsmqywxsm" class="qr-container"></div>
+                </TabPane>
+            </Tabs>
         </div>
-        <div class="loginDown">
-            <p style="margin-top:10px">帮助 | 隐私 | 条款</p>
-            <p>
-                <span>Copyright © 2020 - 至今 XXX 版权所有</span>
-                <span style="display:inline-block; width:4px;height:6px"></span>
-                <a target="_blank" href="https://beian.miit.gov.cn" style="color:#848585">ICP备案 浙ICP备XXXXXXXX号</a>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=XXXXXXXXXXXXXX号">
-                    <img src="../assets/login/gonganlogo.png" style="margin-left:6px" />
-                    <p style="display:inline-block;color:#848585">浙公网安备 XXXXXXXXXXXXXX号</p>
-                </a>
-            </p>
+
+        <div class="login-footer">
+            <p>COPYRIGHT © 2025 HIGH-TECH ASSETS SYSTEM</p>
         </div>
-    </Row>
+    </div>
 </div>
 </template>
 
 <script>
+// ... existing script logic keeping user's original logic ...
 import {
     login,
     userInfo,
@@ -208,286 +191,226 @@ export default {
 </script>
 
 <style lang="less">
-html,
-body {
-    background: #ffffff !important;
-    font-family: Microsoft YaHei;
-    font-weight: 400;
-    ;
-}
+/* Tech Theme Variables */
+@tech-bg: #050510;
+@tech-primary: #00f3ff;
+@tech-secondary: #7000ff;
+@tech-surface: rgba(20, 20, 35, 0.7);
+@tech-text: #e0e0ff;
 
-a {
-    font-family: Microsoft YaHei;
-
-    color: #77C8C6;
-}
-
-input::-webkit-input-placeholder {
-    font-size: 14px;
-}
-
-.ivu-checkbox-wrapper.ivu-checkbox-large {
-    font-size: 14px;
-}
-
-a:hover {
-    font-family: Microsoft YaHei;
-    color: #77C8C6;
+html, body {
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 .login {
-    height: 100%;
-    background-color: #ffffff;
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, @tech-bg 100%);
+    position: relative;
+    overflow: hidden;
+    color: @tech-text;
+    font-family: 'Orbitron', 'Microsoft YaHei', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .ivu-tabs-nav-container {
-        line-height: 2;
-        font-size: 17px;
-        box-sizing: border-box;
-        white-space: nowrap;
-        overflow: hidden;
-        position: relative;
-        zoom: 1;
-    }
+/* Star Animation */
+.stars, .twinkling {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100%; height: 100%;
+    display: block;
+}
+.stars {
+    background: #000 url('http://www.script-tutorials.com/demos/360/images/stars.png') repeat top center;
+    z-index: 0;
+}
+.twinkling {
+    background: transparent url('http://www.script-tutorials.com/demos/360/images/twinkling.png') repeat top center;
+    z-index: 1;
+    animation: move-twink-back 200s linear infinite;
+}
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
 
-    .loginUp {
-        width: 1200px;
-        min-height: 80px;
-        background-color: #ffffff;
-        margin: 0 auto;
-        overflow: hidden;
-    }
+.login-container {
+    z-index: 2;
+    width: 100%;
+    max-width: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    .loginLeft {
-        margin-top: 20px;
-        height: 50px;
-        display: flex;
-    }
+.login-header {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
 
-    .line {
-        display: inline-block;
-        width: 2px;
-        height: 25px;
-        background: url(../assets/login/line.png);
-        margin: 0px 10px;
-        margin-top: 15px;
-    }
+.tech-line {
+    height: 2px;
+    width: 50px;
+    background: linear-gradient(90deg, transparent, @tech-primary, transparent);
+    margin: 0 15px;
+}
 
-    .title {
-        line-height: 58px;
-        font-size: 18px;
-        font-family: Microsoft YaHei;
-        font-weight: 500;
-        color: #999999;
-    }
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: @tech-primary;
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.5);
+    letter-spacing: 2px;
+}
 
-    .loginMiddle {
+.login-card {
+    width: 100%;
+    background: @tech-surface;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    border-radius: 10px;
+    padding: 40px;
+    position: relative;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(0, 243, 255, 0.05);
+}
+
+.card-glow {
+    position: absolute;
+    top: -2px; left: -2px; right: -2px; bottom: -2px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, @tech-primary, transparent, @tech-secondary);
+    z-index: -1;
+    opacity: 0.5;
+    animation: glow-pulse 3s infinite alternate;
+}
+
+@keyframes glow-pulse {
+    from { opacity: 0.3; }
+    to { opacity: 0.7; }
+}
+
+/* Tabs */
+.ivu-tabs-nav .ivu-tabs-tab {
+    color: rgba(224, 224, 255, 0.6);
+    font-size: 16px;
+    transition: all 0.3s;
+}
+.ivu-tabs-nav .ivu-tabs-tab-active {
+    color: @tech-primary;
+    text-shadow: 0 0 8px @tech-primary;
+}
+.ivu-tabs-ink-bar {
+    background-color: @tech-primary;
+    box-shadow: 0 0 10px @tech-primary;
+}
+
+/* Inputs */
+.tech-input input {
+    background: rgba(0, 0, 0, 0.3) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: @tech-primary !important;
+    border-radius: 4px;
+    height: 45px;
+    transition: all 0.3s;
+}
+.tech-input input:focus {
+    border-color: @tech-primary !important;
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+}
+.tech-input .ivu-input-prefix i {
+    color: @tech-primary;
+    line-height: 45px;
+}
+.tech-input input::placeholder {
+    color: rgba(224, 224, 255, 0.3);
+}
+
+/* Verify Code */
+.input-verify {
+    width: 65%;
+}
+.code-image {
+    width: 30%;
+    height: 45px;
+    border: 1px solid rgba(0, 243, 255, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    
+    img {
         width: 100%;
-        height: 780px;
-        margin: 0 auto;
-        background-color: #83c9c7;
-        overflow: hidden;
-        // background: linear-gradient(45deg, rgba(2, 173, 168, 0.17), rgba(0, 221, 215, 0.17)); 
-    }
-
-    .login-background {
-        width: 1200px;
-        height: 780px;
-        margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .loginBg {
-        width: 560px;
-        height: 684px;
-        margin-top: -20px;
-        background-image: url(../assets/login/star.png);
-        background-repeat: no-repeat;
-        background-position: left bottom;
-    }
-
-    .loginRight {
-        width: 450px;
-        height: 550px;
-        background-color: #ffffff;
-        border: 1px solid #E6E6E6;
-        box-shadow: 0px 2px 15px 1px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
-        margin-top: 115px;
-        position: relative;
-    }
-
-    .loginRow {
-        padding: 0px 30px;
-    }
-
-    .loginDown {
-        width: 1200px;
-        height: auto;
-        margin: 0 auto;
-
-    }
-
-    .loginTab {
-        margin-top: 20px;
-    }
-
-    .ivu-tabs-tab {
-        color: #333333;
-        font-size: 18px;
-        font-family: Microsoft YaHei;
-        font-weight: bold;
-    }
-
-    .ivu-tabs-nav .ivu-tabs-tab {
-        padding: 8px 42px;
-        margin-right: 0px;
-    }
-
-    .ivu-tabs-ink-bar {
-        height: 4px;
-        width: 86px !important;
-        border-radius: 2px;
-        margin: 0px 42px;
-        background-color: #83C9C7;
-    }
-
-    .ivu-tabs-nav .ivu-tabs-tab-active,
-    .ivu-tabs-nav .ivu-tabs-tab:hover {
-        color: #333333;
-    }
-
-    .loginInput {
-        font-size: 18px;
-        font-family: Microsoft YaHei;
-        font-weight: bold;
-        color: #333333;
-    }
-
-    .ivu-tabs-bar {
-        border-bottom: 0px;
-    }
-
-    .login-btn {
-        width: 390px;
-        height: 50px;
-        background: radial-gradient(circle, #77C8C6, #50C7C4);
-        border: 2px solid #61C8C5;
-        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.21);
-        border-radius: 4px;
-    }
-
-    .login .login-btn,
-    .login .other-login {
-        margin-top: 40px;
-    }
-
-    .loginBottom {
-        width: 448px;
-        height: 60px;
-        background: #f9f9f9;
-        border-radius: 0px 0px 5px 5px;
-        padding: 0px;
-        position: absolute;
-        bottom: 0px;
-        font-size: 16px;
-        font-weight: bold;
-        color: #83C9C7;
-        text-align: center;
-        line-height: 60px;
-    }
-
-    .loginDown p {
-        text-align: center;
-        font-size: 12px;
-        font-family: Microsoft YaHei;
-        color: #777777;
-        line-height: 22px;
-    }
-
-    .ivu-checkbox-checked .ivu-checkbox-inner {
-        background-color: #83c9c7;
-        border-color: #83c9c7;
-    }
-
-    .ivu-form-item {
-        margin-bottom: 24px;
-    }
-
-    .ivu-input-wrapper-large .ivu-input-icon {
-        line-height: 50px;
-    }
-
-    .loginInput input:nth-of-type(1) {
-        height: 50px;
-        font-size: 18px;
-        font-weight: bold;
-        font-family: Microsoft YaHei;
-        color: #333333;
-        line-height: 50px;
-    }
-
-    .ivu-input-large {
-        height: 50px;
-        color: #CFCFCF;
-        line-height: 50px;
-    }
-
-    .ivu-input-large {
-        font-size: 14px;
-    }
-
-    .ivu-btn-large {
-        height: 50px;
-    }
-
-    .form {
-        padding-top: 2vh;
-
-        .input-verify {
-            width: 67%;
-        }
-    }
-
-    .code-image {
-        .ivu-spin-fix .ivu-spin-main {
-            height: 20px;
-        }
-    }
-
-    .forget-pass,
-    .other-way {
-        font-size: 14px;
-    }
-
-    .login-btn,
-    .other-login {
-        margin-top: 40px;
-    }
-
-    .icons {
-        display: flex;
-        align-items: center;
-    }
-
-    .other-icon {
-        cursor: pointer;
-        margin-left: 10px;
-        display: flex;
-        align-items: center;
-        color: rgba(0, 0, 0, .2);
-
-        :hover {
-            color: #2d8cf0;
-        }
-    }
-
-    .layout {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 368px;
         height: 100%;
     }
 }
+
+/* Options */
+.login-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.tech-checkbox .ivu-checkbox-inner {
+    background-color: transparent;
+    border-color: @tech-primary;
+}
+.tech-checkbox .ivu-checkbox-checked .ivu-checkbox-inner {
+    background-color: @tech-primary;
+    border-color: @tech-primary;
+}
+.tech-checkbox span {
+    color: rgba(224, 224, 255, 0.7);
+}
+.tech-link {
+    color: @tech-primary;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.tech-link:hover {
+    color: #fff;
+    text-shadow: 0 0 5px @tech-primary;
+}
+
+/* Button */
+.tech-btn {
+    background: linear-gradient(90deg, rgba(0, 243, 255, 0.2), rgba(112, 0, 255, 0.2));
+    border: 1px solid @tech-primary;
+    color: @tech-primary;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 3px;
+    font-weight: bold;
+    transition: all 0.3s;
+    height: 50px;
+}
+.tech-btn:hover {
+    background: @tech-primary;
+    color: #000;
+    box-shadow: 0 0 20px @tech-primary;
+    border-color: @tech-primary;
+}
+
+.login-footer {
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.qr-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 </style>
+

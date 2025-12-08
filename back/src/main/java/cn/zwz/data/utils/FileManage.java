@@ -1,4 +1,4 @@
-package cn.zwz.data.utils;
+﻿package cn.zwz.data.utils;
 
 import cn.zwz.data.vo.OssSetting;
 import cn.zwz.data.vo.OssSettingVo;
@@ -8,7 +8,7 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.InputStream;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 public interface FileManage {
 

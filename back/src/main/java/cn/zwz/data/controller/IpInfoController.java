@@ -1,4 +1,4 @@
-package cn.zwz.data.controller;
+﻿package cn.zwz.data.controller;
 
 import cn.zwz.basics.utils.IpInfoUtil;
 import cn.zwz.basics.utils.ResultUtil;
@@ -15,7 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 
 /**
  * IP定位
- * @author 郑为中
+ * @author 灿
  */
 @RestController
 @Api(tags = "IP接口")

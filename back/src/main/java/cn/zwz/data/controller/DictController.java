@@ -1,4 +1,4 @@
-package cn.zwz.data.controller;
+﻿package cn.zwz.data.controller;
 
 import cn.zwz.basics.log.LogType;
 import cn.zwz.basics.log.SystemLog;
@@ -21,7 +21,7 @@ import java.util.Objects;
 
 /**
  * 数据字典
- * @author 郑为中
+ * @author 灿
  */
 @RestController
 @Api(tags = "字典管理接口")

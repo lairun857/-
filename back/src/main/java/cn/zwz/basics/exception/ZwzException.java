@@ -1,11 +1,11 @@
-package cn.zwz.basics.exception;
+﻿package cn.zwz.basics.exception;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 /**
  * RuntimeException 异常处理类
- * @author 郑为中
+ * @author 灿
  */
 @Data
 public class ZwzException extends RuntimeException {

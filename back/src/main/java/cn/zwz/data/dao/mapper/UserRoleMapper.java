@@ -1,4 +1,4 @@
-package cn.zwz.data.dao.mapper;
+﻿package cn.zwz.data.dao.mapper;
 
 import cn.zwz.data.entity.Role;
 import cn.zwz.data.entity.UserRole;
@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 用户-角色关系 数据链路层接口
- * @author 郑为中
+ * @author 灿
  */
 public interface UserRoleMapper extends BaseMapper<UserRole> {
 }

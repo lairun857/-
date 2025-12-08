@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.permission;
+﻿package cn.zwz.basics.security.permission;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.AccessDecisionManager;
@@ -15,7 +15,7 @@ import java.util.Objects;
 
 /**
  * 权限过滤类
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class MyAccessDecisionManager implements AccessDecisionManager {

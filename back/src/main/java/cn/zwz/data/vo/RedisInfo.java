@@ -1,4 +1,4 @@
-package cn.zwz.data.vo;
+﻿package cn.zwz.data.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 public class RedisInfo {

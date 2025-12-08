@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.jwt;
+﻿package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import cn.zwz.basics.exception.ZwzAuthException;
@@ -20,7 +20,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Component

@@ -1,4 +1,4 @@
-package cn.zwz.data.controller;
+﻿package cn.zwz.data.controller;
 
 import cn.zwz.basics.log.LogType;
 import cn.zwz.basics.log.SystemLog;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 /**
  * 系统日志
- * @author 郑为中
+ * @author 灿
  */
 @RestController
 @Api(tags = "日志管理接口")

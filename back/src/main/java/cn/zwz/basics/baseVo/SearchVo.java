@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseVo;
+﻿package cn.zwz.basics.baseVo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -9,7 +9,7 @@ import java.io.Serializable;
 
 /**
  * 前端日期特殊处理
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @AllArgsConstructor

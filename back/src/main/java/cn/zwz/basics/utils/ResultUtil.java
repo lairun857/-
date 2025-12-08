@@ -1,10 +1,10 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import cn.zwz.basics.baseVo.Result;
 import io.swagger.annotations.ApiModelProperty;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 public class ResultUtil<T> {
 

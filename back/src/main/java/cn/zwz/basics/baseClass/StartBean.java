@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseClass;
+﻿package cn.zwz.basics.baseClass;
 
 import cn.zwz.basics.redis.RedisTemplateHelper;
 import cn.zwz.data.entity.User;

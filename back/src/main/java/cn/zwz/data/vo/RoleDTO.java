@@ -1,4 +1,4 @@
-package cn.zwz.data.vo;
+﻿package cn.zwz.data.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @Accessors(chain = true)

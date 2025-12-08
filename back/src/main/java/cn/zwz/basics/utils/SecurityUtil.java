@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.basics.baseVo.TokenUser;
@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 鉴权工具类
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class SecurityUtil {

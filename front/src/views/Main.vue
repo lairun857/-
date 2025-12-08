@@ -142,7 +142,9 @@ export default {
             return this.$store.state.app.currNavTitle;
         },
         menuList() {
-            return this.$store.state.app.menuList;
+            // Filter out the '二次开发' menu by title
+            const list = this.$store.state.app.menuList || [];
+            return list.filter(item => item.title !== '二次开发');
         },
         pageTagsList() {
             return this.$store.state.app.pageOpenedList; // 打开的页面的页面对象

@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.UserMapper;
 import cn.zwz.data.entity.User;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 用户 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IUserServiceImpl extends ServiceImpl<UserMapper, User> implements IUserService {

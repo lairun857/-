@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;
@@ -7,7 +7,7 @@ import java.util.concurrent.*;
 
 /**
  * 线程池配置
- * @author 郑为中
+ * @author 灿
  */
 public class ThreadPoolUtil {
 

@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.jwt;
+﻿package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import io.swagger.annotations.ApiOperation;
@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 
 /**
  * 自定义权限拒绝
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class ZwzAccessDeniedHandler implements AccessDeniedHandler {

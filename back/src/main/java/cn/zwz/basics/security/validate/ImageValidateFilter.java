@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.validate;
+﻿package cn.zwz.basics.security.validate;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import cn.zwz.basics.parameter.CaptchaProperties;
@@ -19,7 +19,7 @@ import java.util.Objects;
 
 /**
  * 验证码过滤
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 public class ImageValidateFilter extends OncePerRequestFilter {

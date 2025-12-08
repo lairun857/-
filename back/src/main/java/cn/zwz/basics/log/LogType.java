@@ -1,8 +1,8 @@
-package cn.zwz.basics.log;
+﻿package cn.zwz.basics.log;
 
 /**
  * 系统日志的类型
- * @author 郑为中
+ * @author 灿
  */
 public enum LogType {
 

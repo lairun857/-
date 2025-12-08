@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import io.swagger.annotations.ApiOperation;
 
@@ -9,7 +9,7 @@ import java.util.UUID;
 
 /**
  * 公用工具类
- * @author 郑为中
+ * @author 灿
  */
 public class CommonUtil {
 

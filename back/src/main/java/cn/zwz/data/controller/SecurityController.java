@@ -1,4 +1,4 @@
-package cn.zwz.data.controller;
+﻿package cn.zwz.data.controller;
 
 import cn.zwz.basics.utils.ResultUtil;
 import cn.zwz.basics.baseVo.Result;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * 未登录返回
- * @author 郑为中
+ * @author 灿
  */
 @RestController
 @RequestMapping("/zwz/common")

@@ -1,10 +1,10 @@
-package cn.zwz.data.utils;
+﻿package cn.zwz.data.utils;
 
 import java.util.Objects;
 
 /**
  * 判断为空工具类
- * @author 郑为中
+ * @author 灿
  */
 public class ZwzNullUtils {
     public static boolean isNull(String str){

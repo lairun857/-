@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.controller;
+﻿package cn.zwz.basics.security.controller;
 
 import cn.zwz.basics.baseVo.Result;
 import cn.zwz.basics.log.LogType;
@@ -27,7 +27,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 企业微信验证码
- * @author 郑为中
+ * @author 灿
  */
 @RestController
 @Api(tags = "企微验证码")

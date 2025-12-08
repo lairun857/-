@@ -1,4 +1,4 @@
-package cn.zwz.basics.log;
+﻿package cn.zwz.basics.log;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.useragent.UserAgent;
@@ -28,7 +28,7 @@ import java.util.Objects;
 
 /**
  * Spring AOP实现日志管理
- * @author 郑为中
+ * @author 灿
  */
 @Aspect
 @Component

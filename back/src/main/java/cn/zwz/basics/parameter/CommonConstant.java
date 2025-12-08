@@ -1,10 +1,10 @@
-package cn.zwz.basics.parameter;
+﻿package cn.zwz.basics.parameter;
 
 import io.swagger.annotations.ApiModelProperty;
 
 /**
  * 系统基础常量
- * @author 郑为中
+ * @author 灿
  */
 public interface CommonConstant {
 

@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.UserRoleMapper;
 import cn.zwz.data.entity.UserRole;
@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 用户-角色关系 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IUserRoleServiceImpl extends ServiceImpl<UserRoleMapper, UserRole> implements IUserRoleService {

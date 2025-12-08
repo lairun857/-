@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseClass;
+﻿package cn.zwz.basics.baseClass;
 
 import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.annotation.FieldFill;
@@ -23,7 +23,7 @@ import java.util.Date;
 
 /**
  * 基类实体Bean
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @AllArgsConstructor

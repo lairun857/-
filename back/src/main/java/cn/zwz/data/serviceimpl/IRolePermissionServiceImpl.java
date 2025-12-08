@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.RolePermissionMapper;
 import cn.zwz.data.entity.RolePermission;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 角色-菜单关系 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IRolePermissionServiceImpl extends ServiceImpl<RolePermissionMapper, RolePermission> implements IRolePermissionService {

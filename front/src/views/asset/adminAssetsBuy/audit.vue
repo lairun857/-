@@ -23,9 +23,7 @@
                             </Button>
                         </Poptip>
                         <Modal v-model="modal1" title="使用教程">
-                            <p>1.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>2.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>3.XXXXXXXXXXXXXXXXXXXXXXXX</p>
+                            <p>1. 点击新增按钮可添加数据</p><p>2. 点击编辑按钮可修改数据</p><p>3. 点击删除按钮可删除数据</p><p>4. 使用搜索框可快速查找数据</p><p>5. 点击导出可将数据导出为Excel文件</p>
                         </Modal>
                     </Form-item>
                 </Form-item>
@@ -49,26 +47,7 @@
         <Row type="flex" justify="end" class="page">
             <Page :current="searchForm.pageNumber" :total="total" :page-size="searchForm.pageSize" @on-change="changePage" @on-page-size-change="changePageSize" :page-size-opts="[10, 20, 50]" size="small" show-total show-elevator show-sizer></Page>
         </Row>
-        <div class="spanTS">
-            <span style="color:#ff9900;font-size:22px;">
-                1. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                2.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                3.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                4. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                5. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                6. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-        </div>
+        
     </Card>
     <Modal v-model="buyAuditModel" title="采购单审核" @on-ok="buyAudit">
         <Row :gutter="16">
@@ -819,3 +798,4 @@ export default {
     margin-top: 30px;
 }
 </style>
+

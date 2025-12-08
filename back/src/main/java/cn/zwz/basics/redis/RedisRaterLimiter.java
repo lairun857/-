@@ -1,4 +1,4 @@
-package cn.zwz.basics.redis;
+﻿package cn.zwz.basics.redis;
 
 import cn.hutool.core.util.StrUtil;
 import cn.zwz.data.utils.ZwzNullUtils;
@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 限流算法
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Component

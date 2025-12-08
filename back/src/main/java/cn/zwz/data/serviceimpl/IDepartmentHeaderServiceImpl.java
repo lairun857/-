@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.DepartmentHeaderMapper;
 import cn.zwz.data.entity.DepartmentHeader;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 部门领导 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IDepartmentHeaderServiceImpl extends ServiceImpl<DepartmentHeaderMapper, DepartmentHeader> implements IDepartmentHeaderService {

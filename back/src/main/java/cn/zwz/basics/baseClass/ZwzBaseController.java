@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseClass;
+﻿package cn.zwz.basics.baseClass;
 
 import cn.zwz.basics.utils.PageUtil;
 import cn.zwz.basics.utils.ResultUtil;
@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  * 基类控制器
- * @author 郑为中
+ * @author 灿
  */
 public abstract class ZwzBaseController<E, ID extends Serializable> {
 

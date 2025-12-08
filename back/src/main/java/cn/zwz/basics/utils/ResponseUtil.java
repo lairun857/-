@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import com.google.gson.Gson;
 import io.swagger.annotations.ApiModelProperty;
@@ -12,7 +12,7 @@ import java.util.Map;
 
 /**
  * Response 回调前端
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 public class ResponseUtil {

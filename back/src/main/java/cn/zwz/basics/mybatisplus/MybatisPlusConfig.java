@@ -1,4 +1,4 @@
-package cn.zwz.basics.mybatisplus;
+﻿package cn.zwz.basics.mybatisplus;
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 /**
  * MybatisPlus配置类
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 @MapperScan({"cn.zwz.*.mapper", "cn.zwz.*.*.mapper"})

@@ -1,4 +1,4 @@
-package cn.zwz.basics.mybatisplus;
+﻿package cn.zwz.basics.mybatisplus;
 
 import cn.zwz.basics.redis.RedisTemplateHelper;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
@@ -15,7 +15,7 @@ import java.util.Objects;
 
 /**
  * MybatisPlus字段填充
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Component

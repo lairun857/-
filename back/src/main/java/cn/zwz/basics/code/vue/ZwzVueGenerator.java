@@ -1,4 +1,4 @@
-package cn.zwz.basics.code.vue;
+﻿package cn.zwz.basics.code.vue;
 
 import cn.hutool.core.util.StrUtil;
 import cn.zwz.basics.exception.ZwzException;

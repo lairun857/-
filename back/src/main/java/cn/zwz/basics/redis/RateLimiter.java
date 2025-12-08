@@ -1,4 +1,4 @@
-package cn.zwz.basics.redis;
+﻿package cn.zwz.basics.redis;
 
 import io.swagger.annotations.ApiModelProperty;
 
@@ -6,7 +6,7 @@ import java.lang.annotation.*;
 
 /**
  * 限流注解
- * @author 郑为中
+ * @author 灿
  */
 @Target(ElementType.METHOD)
 @Retention(RetentionPolicy.RUNTIME)

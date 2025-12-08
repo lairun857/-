@@ -1,4 +1,4 @@
-package cn.zwz.basics.code;
+﻿package cn.zwz.basics.code;
 
 import cn.hutool.core.date.DateUtil;
 import cn.zwz.basics.code.bean.Entity;
@@ -43,7 +43,7 @@ public class MyBatisPlusCodeUtils {
     private static final String description = "动态表格值";
 
     @ApiModelProperty(value = "作者")
-    private static final String author = "郑为中";
+    private static final String author = "灿";
 
     @ApiModelProperty(value = "数据库表前缀")
     private static final String tablePre = "a_";

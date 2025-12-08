@@ -1,4 +1,4 @@
-package cn.zwz.basics.security;
+﻿package cn.zwz.basics.security;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.data.entity.User;
@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 根据账号/手机号查询用户所有信息
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class UserDetailsServiceImpl implements UserDetailsService {

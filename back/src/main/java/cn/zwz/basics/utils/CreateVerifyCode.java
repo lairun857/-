@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import cn.hutool.core.util.StrUtil;
 import cn.zwz.basics.exception.ZwzException;
@@ -15,7 +15,7 @@ import java.util.Random;
 
 /**
  * 随机字符验证码生成工具类
- * @author 郑为中
+ * @author 灿
  */
 public class CreateVerifyCode {
 

@@ -1,4 +1,4 @@
-package cn.zwz.assets.entity;
+﻿package cn.zwz.assets.entity;
 
 import cn.zwz.basics.baseClass.ZwzBaseEntity;
 import com.baomidou.mybatisplus.annotation.TableName;

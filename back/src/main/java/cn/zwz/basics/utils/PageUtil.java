@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.basics.baseVo.PageVo;
@@ -16,7 +16,7 @@ import java.util.Objects;
 
 /**
  * 封装的分页插件
- * @author 郑为中
+ * @author 灿
  */
 public class PageUtil {
 

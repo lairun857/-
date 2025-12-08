@@ -1,4 +1,4 @@
-package cn.zwz;
+﻿package cn.zwz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * SpringBoot启动类
- * @author 郑为中
+ * @author 灿
  */
 @SpringBootApplication
 @EnableJpaAuditing

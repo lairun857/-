@@ -1,4 +1,4 @@
-package cn.zwz.basics.security;
+﻿package cn.zwz.basics.security;
 
 import cn.zwz.basics.parameter.CommonConstant;
 import cn.zwz.data.entity.User;
@@ -16,7 +16,7 @@ import java.util.List;
 import java.util.Objects;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 public class SecurityUserDetails extends User implements UserDetails {
 

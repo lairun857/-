@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.permission;
+﻿package cn.zwz.basics.security.permission;
 
 import cn.zwz.basics.parameter.CommonConstant;
 import cn.zwz.data.entity.Permission;
@@ -19,7 +19,7 @@ import java.util.*;
 
 /**
  * 按钮权限过滤
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class MySecurityMetadataSource implements FilterInvocationSecurityMetadataSource {

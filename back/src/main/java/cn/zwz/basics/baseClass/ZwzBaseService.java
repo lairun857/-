@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseClass;
+﻿package cn.zwz.basics.baseClass;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.data.domain.Page;
@@ -9,7 +9,7 @@ import java.util.List;
 
 /**
  * 基类服务层
- * @author 郑为中
+ * @author 灿
  */
 @FunctionalInterface
 public interface ZwzBaseService<E, ID extends Serializable> {

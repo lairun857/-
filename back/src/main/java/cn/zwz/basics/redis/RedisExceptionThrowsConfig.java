@@ -1,4 +1,4 @@
-package cn.zwz.basics.redis;
+﻿package cn.zwz.basics.redis;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
@@ -26,7 +26,7 @@ import java.util.Objects;
 
 /**
  * Redis异常处理
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 @Slf4j

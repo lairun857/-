@@ -1,4 +1,4 @@
-package cn.zwz.basics.utils;
+﻿package cn.zwz.basics.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;
@@ -14,7 +14,7 @@ import java.io.IOException;
 
 /**
  * 代理对象实例化类
- * @author 郑为中
+ * @author 灿
  */
 public class HibernateProxyTypeAdapter extends TypeAdapter<HibernateProxy> {
 

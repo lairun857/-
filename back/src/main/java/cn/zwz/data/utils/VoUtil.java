@@ -1,4 +1,4 @@
-package cn.zwz.data.utils;
+﻿package cn.zwz.data.utils;
 
 import cn.zwz.data.entity.Permission;
 import cn.zwz.data.vo.MenuVo;
@@ -7,7 +7,7 @@ import io.swagger.annotations.ApiOperation;
 
 /**
  * 菜单转换VO类
- * @author 郑为中
+ * @author 灿
  */
 public class VoUtil {
 

@@ -1,4 +1,4 @@
-package cn.zwz.basics.redis;
+﻿package cn.zwz.basics.redis;
 
 import cn.zwz.basics.parameter.NoAuthenticationProperties;
 import io.swagger.annotations.ApiOperation;
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
  * 拦截器配置
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Configuration

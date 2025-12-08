@@ -1,4 +1,4 @@
-package cn.zwz.data.dao.mapper;
+﻿package cn.zwz.data.dao.mapper;
 
 import cn.zwz.data.entity.Permission;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * 菜单 数据链路层接口
- * @author 郑为中
+ * @author 灿
  */
 public interface PermissionMapper extends BaseMapper<Permission> {
 

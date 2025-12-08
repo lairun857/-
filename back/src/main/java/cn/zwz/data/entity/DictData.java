@@ -1,4 +1,4 @@
-package cn.zwz.data.entity;
+﻿package cn.zwz.data.entity;
 
 import cn.zwz.basics.baseClass.ZwzBaseEntity;
 import cn.zwz.basics.parameter.CommonConstant;
@@ -17,7 +17,7 @@ import javax.persistence.Transient;
 import java.math.BigDecimal;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @Entity

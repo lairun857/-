@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.utils;
+﻿package cn.zwz.basics.security.utils;
 
 import cn.zwz.data.utils.ZwzNullUtils;
 import com.alibaba.fastjson2.JSON;
@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * 企微消息发送工具类
- * @author 郑为中
+ * @author 灿
  */
 public class ZwzWxNoticeUtils {
 

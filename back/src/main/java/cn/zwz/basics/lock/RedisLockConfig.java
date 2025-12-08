@@ -1,4 +1,4 @@
-package cn.zwz.basics.lock;
+﻿package cn.zwz.basics.lock;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;
@@ -8,7 +8,7 @@ import org.springframework.integration.redis.util.RedisLockRegistry;
 
 /**
  * Redis锁工具类
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 public class RedisLockConfig {

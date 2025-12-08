@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.jwt;
+﻿package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import cn.zwz.basics.utils.SecurityUtil;
@@ -28,7 +28,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 public class JwtRoleFilter extends BasicAuthenticationFilter {

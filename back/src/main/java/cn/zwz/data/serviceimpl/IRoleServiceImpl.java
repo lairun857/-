@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.RoleMapper;
 import cn.zwz.data.entity.Role;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 角色 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IRoleServiceImpl extends ServiceImpl<RoleMapper, Role> implements IRoleService {

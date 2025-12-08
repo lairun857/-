@@ -1,4 +1,4 @@
-package cn.zwz.basics.security;
+﻿package cn.zwz.basics.security;
 
 import cn.zwz.basics.security.jwt.JwtRoleFilter;
 import cn.zwz.basics.utils.SecurityUtil;
@@ -25,7 +25,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 /**
  * SpringSecurity 配置
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 @EnableGlobalMethodSecurity(prePostEnabled=true)

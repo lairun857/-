@@ -1,4 +1,4 @@
-package cn.zwz.basics.parameter;
+﻿package cn.zwz.basics.parameter;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * URL验证
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @Configuration

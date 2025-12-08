@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.PermissionMapper;
 import cn.zwz.data.entity.Permission;
@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * 菜单 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IPermissionServiceImpl extends ServiceImpl<PermissionMapper, Permission> implements IPermissionService {

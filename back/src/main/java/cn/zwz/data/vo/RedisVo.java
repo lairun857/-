@@ -1,11 +1,11 @@
-package cn.zwz.data.vo;
+﻿package cn.zwz.data.vo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @AllArgsConstructor

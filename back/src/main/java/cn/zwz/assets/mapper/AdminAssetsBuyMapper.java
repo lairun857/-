@@ -1,4 +1,4 @@
-package cn.zwz.assets.mapper;
+﻿package cn.zwz.assets.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import cn.zwz.assets.entity.AdminAssetsBuy;

@@ -1,4 +1,4 @@
-package cn.zwz.data.entity;
+﻿package cn.zwz.data.entity;
 
 import cn.zwz.basics.baseClass.ZwzBaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
@@ -14,7 +14,7 @@ import javax.persistence.Table;
 import javax.persistence.Transient;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @Entity

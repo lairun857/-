@@ -1,4 +1,4 @@
-package cn.zwz.basics.log;
+﻿package cn.zwz.basics.log;
 
 import io.swagger.annotations.ApiModelProperty;
 
@@ -6,7 +6,7 @@ import java.lang.annotation.*;
 
 /**
  * 日志注解
- * @author 郑为中
+ * @author 灿
  */
 @Target({ElementType.PARAMETER, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)

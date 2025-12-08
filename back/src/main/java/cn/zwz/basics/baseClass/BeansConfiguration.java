@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseClass;
+﻿package cn.zwz.basics.baseClass;
 
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -14,7 +14,7 @@ import org.springframework.util.PathMatcher;
 
 /**
  * SpringBoot启动配置类
- * @author 郑为中
+ * @author 灿
  */
 @Configuration
 @Slf4j

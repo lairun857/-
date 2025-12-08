@@ -1,4 +1,4 @@
-<template>
+﻿<template>
 <div class="login">
     <Row justify="center" align="middle" @keydown.enter.native="submitRegist" style="height:100%">
         <div class="loginUp">
@@ -71,13 +71,7 @@
         <div class="loginDown">
             <p style="margin-top:10px">帮助 | 隐私 | 条款</p>
             <p>
-                <span>Copyright © 2020 - 至今 XXX 版权所有</span>
-                <span style="display:inline-block; width:4px;height:6px"></span>
-                <a target="_blank" href="https://beian.miit.gov.cn" style="color:#848585">ICP备案 浙ICP备XXXXXXXX号</a>
-                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=XXXXXXXXXXXXXX号">
-                    <img src="../assets/login/gonganlogo.png" style="margin-left:6px" />
-                    <p style="display:inline-block;color:#848585">浙公网安备 XXXXXXXXXXXXXX号</p>
-                </a>
+                <span>Copyright © 2020 - 至今 高校固定资产管理系统 版权所有</span>
             </p>
         </div>
     </Row>
@@ -431,3 +425,4 @@ a:hover{
     }
 }
 </style>
+

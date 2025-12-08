@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.LogDao;
 import cn.zwz.data.service.LogService;
@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 /**
  * 日志接口实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 @Transactional

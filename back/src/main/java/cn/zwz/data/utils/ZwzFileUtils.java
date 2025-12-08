@@ -1,4 +1,4 @@
-package cn.zwz.data.utils;
+﻿package cn.zwz.data.utils;
 
 import cn.zwz.basics.parameter.SettingConstant;
 import cn.zwz.basics.exception.ZwzException;
@@ -20,7 +20,7 @@ import java.io.*;
 
 /**
  * 本地文件工具类
- * @author 郑为中
+ * @author 灿
  */
 @Component
 public class ZwzFileUtils implements FileManage {

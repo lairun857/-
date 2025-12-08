@@ -1,4 +1,4 @@
-package cn.zwz.basics.baseVo;
+﻿package cn.zwz.basics.baseVo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import java.util.List;
 
 /**
  * 用户Token VO类
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @AllArgsConstructor

@@ -1,4 +1,4 @@
-package cn.zwz.basics.code.bean;
+﻿package cn.zwz.basics.code.bean;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
@@ -7,7 +7,7 @@ import java.math.BigDecimal;
 
 /**
  * 实体类字段
- * @author 郑为中
+ * @author 灿
  */
 @Data
 public class Field {

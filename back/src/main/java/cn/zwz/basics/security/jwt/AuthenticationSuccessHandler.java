@@ -1,4 +1,4 @@
-package cn.zwz.basics.security.jwt;
+﻿package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.log.SystemLog;
 import cn.zwz.basics.log.LogType;
@@ -30,7 +30,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * 登录成功处理类
- * @author 郑为中
+ * @author 灿
  */
 @Slf4j
 @Component

@@ -20,9 +20,7 @@
                         <Button type="warning" @click="modal1 = true" class="showFilterPanelFlag" icon="ios-help-circle-outline" size="small">
                         </Button>
                         <Modal v-model="modal1" title="使用教程">
-                            <p>1.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>2.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>3.XXXXXXXXXXXXXXXXXXXXXXXX</p>
+                            <p>1. 点击新增按钮可添加数据</p><p>2. 点击编辑按钮可修改数据</p><p>3. 点击删除按钮可删除数据</p><p>4. 使用搜索框可快速查找数据</p><p>5. 点击导出可将数据导出为Excel文件</p>
                         </Modal>
                     </Form-item>
                 </Form-item>
@@ -657,3 +655,4 @@ export default {
     font-size: 18px;
 }
 </style>
+

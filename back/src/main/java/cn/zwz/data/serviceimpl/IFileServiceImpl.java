@@ -1,4 +1,4 @@
-package cn.zwz.data.serviceimpl;
+﻿package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.FileMapper;
 import cn.zwz.data.entity.File;
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 
 /**
  * 系统文件 服务层实现
- * @author 郑为中
+ * @author 灿
  */
 @Service
 public class IFileServiceImpl extends ServiceImpl<FileMapper, File> implements IFileService {

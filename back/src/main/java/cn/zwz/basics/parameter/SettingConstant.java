@@ -1,7 +1,7 @@
-package cn.zwz.basics.parameter;
+﻿package cn.zwz.basics.parameter;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 public interface SettingConstant {
 

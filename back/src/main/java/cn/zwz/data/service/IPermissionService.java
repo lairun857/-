@@ -1,4 +1,4 @@
-package cn.zwz.data.service;
+﻿package cn.zwz.data.service;
 
 import cn.zwz.data.entity.Permission;
 import com.baomidou.mybatisplus.extension.service.IService;
@@ -7,7 +7,7 @@ import java.util.List;
 
 /**
  * 菜单 服务层接口
- * @author 郑为中
+ * @author 灿
  */
 public interface IPermissionService extends IService<Permission> {
 

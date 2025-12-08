@@ -1,4 +1,4 @@
-package cn.zwz.basics.code.bean;
+﻿package cn.zwz.basics.code.bean;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author 郑为中
+ * @author 灿
  */
 @Data
 @NoArgsConstructor

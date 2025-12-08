@@ -44,9 +44,11 @@
                         </Poptip>
                         <!-- 使用教程内容弹窗 -->
                         <Modal v-model="modal1" title="使用教程">
-                            <p>1.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>2.XXXXXXXXXXXXXXXXXXXXXXXX</p>
-                            <p>3.XXXXXXXXXXXXXXXXXXXXXXXX</p>
+                            <p>1. 点击"新增"按钮可添加新的资产单位</p>
+                            <p>2. 点击"编辑"按钮可修改已有资产单位信息</p>
+                            <p>3. 点击"删除"按钮可删除选中的资产单位</p>
+                            <p>4. 使用搜索框可快速查找特定资产单位</p>
+                            <p>5. 点击"导出"可将数据导出为Excel文件</p>
                         </Modal>
                     </Form-item>
                 </Form-item>
@@ -76,26 +78,7 @@
             <!-- 分页器,可控制每页显示的条数 -->
             <Page :current="searchForm.pageNumber" :total="total" :page-size="searchForm.pageSize" @on-change="changePage" @on-page-size-change="changePageSize" :page-size-opts="[10, 20, 50]" size="small" show-total show-elevator show-sizer></Page>
         </Row>
-        <div class="spanTS">
-            <span style="color:#ff9900;font-size:22px;">
-                1. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                2.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                3.XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                4. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                5. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-            <span style="color:#ff9900;font-size:22px;">
-                6. XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-            </span>
-        </div>
+
     </Card>
 </div>
 </template>
