@@ -4,7 +4,7 @@ export const loginRouter = {
     path: '/login',
     name: 'login',
     meta: {
-        title: '登录 - 高校固定资产管理系统'
+        title: '登录 - 固定资产管理系统'
     },
     component: () => import('@/views/login.vue')
 };
@@ -13,7 +13,7 @@ export const registRouter = {
     path: '/regist',
     name: 'regist',
     meta: {
-        title: '注册 - 高校固定资产管理系统'
+        title: '注册 - 固定资产管理系统'
     },
     component: () => import('@/views/regist.vue')
 };
@@ -61,7 +61,7 @@ export const otherRouter = {
         { path: 'myHome', title: '个人中心', name: 'my_home_index', component: () => import('@/views/home/myHome.vue') },
         { path: 'password', title: '修改密码', name: 'password', component: () => import('@/views/password/password.vue') },
         { path: 'add', title: '添加', name: 'add', component: () => import('@/views/template/add.vue') },
-        { path: 'edit', title: '编辑', name: 'edit', component: () => import('@/views/template/edit.vue')}
+        { path: 'edit', title: '编辑', name: 'edit', component: () => import('@/views/template/edit.vue') }
     ]
 };
 

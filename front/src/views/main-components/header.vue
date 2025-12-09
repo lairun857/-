@@ -2,7 +2,7 @@
 <div>
     <Row class="header">
         <img src="../../assets/logo.png" width="220px">
-        <div class="description">高校固定资产管理系统</div>
+        <div class="description">固定资产管理系统</div>
     </Row>
 </div>
 </template>

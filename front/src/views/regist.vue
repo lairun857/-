@@ -5,7 +5,7 @@
             <div class="loginLeft">
                 <img src="../assets/login/logo.png" alt="" srcset="">
                 <span class="line"></span>
-                <span class="title">高校固定资产管理系统</span>
+                <span class="title">固定资产管理系统</span>
             </div>
         </div>
         <div class="loginMiddle">
@@ -71,7 +71,7 @@
         <div class="loginDown">
             <p style="margin-top:10px">帮助 | 隐私 | 条款</p>
             <p>
-                <span>Copyright © 2020 - 至今 高校固定资产管理系统 版权所有</span>
+                <span>Copyright © 2020 - 至今 固定资产管理系统 版权所有</span>
             </p>
         </div>
     </Row>

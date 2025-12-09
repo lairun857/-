@@ -7,7 +7,7 @@
     <div class="login-container" @keydown.enter.native="submitLogin">
         <div class="login-header">
             <span class="tech-line"></span>
-            <span class="title">高校固定资产管理系统</span>
+            <span class="title">固定资产管理系统</span>
             <span class="tech-line"></span>
         </div>
         
