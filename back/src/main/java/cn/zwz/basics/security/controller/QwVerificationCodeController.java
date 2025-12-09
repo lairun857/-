@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.controller;
+package cn.zwz.basics.security.controller;
 
 import cn.zwz.basics.baseVo.Result;
 import cn.zwz.basics.log.LogType;

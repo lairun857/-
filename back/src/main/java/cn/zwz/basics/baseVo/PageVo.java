@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.baseVo;
+package cn.zwz.basics.baseVo;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;

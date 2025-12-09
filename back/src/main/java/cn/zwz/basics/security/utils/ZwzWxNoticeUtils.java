@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.utils;
+package cn.zwz.basics.security.utils;
 
 import cn.zwz.data.utils.ZwzNullUtils;
 import com.alibaba.fastjson2.JSON;

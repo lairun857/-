@@ -1,4 +1,4 @@
-﻿package cn.zwz.assets.controller;
+package cn.zwz.assets.controller;
 
 import cn.zwz.assets.entity.AdminAssets;
 import cn.zwz.assets.service.IAdminAssetService;

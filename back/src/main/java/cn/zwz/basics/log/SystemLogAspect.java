@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.log;
+package cn.zwz.basics.log;
 
 import cn.hutool.core.util.StrUtil;
 import cn.hutool.http.useragent.UserAgent;

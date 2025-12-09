@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.serviceimpl;
+package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.LogDao;
 import cn.zwz.data.service.LogService;

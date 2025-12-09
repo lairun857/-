@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.exception;
+package cn.zwz.basics.exception;
 
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.security.authentication.InternalAuthenticationServiceException;

@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.utils;
+package cn.zwz.data.utils;
 
 import cn.zwz.basics.parameter.SettingConstant;
 import cn.zwz.basics.exception.ZwzException;

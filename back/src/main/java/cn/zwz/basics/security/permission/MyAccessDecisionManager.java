@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.permission;
+package cn.zwz.basics.security.permission;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.security.access.AccessDecisionManager;

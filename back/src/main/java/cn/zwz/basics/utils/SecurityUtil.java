@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.utils;
+package cn.zwz.basics.utils;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.basics.baseVo.TokenUser;

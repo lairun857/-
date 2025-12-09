@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.parameter;
+package cn.zwz.basics.parameter;
 
 /**
  * @author 灿

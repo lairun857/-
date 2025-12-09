@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.redis;
+package cn.zwz.basics.redis;
 
 import cn.zwz.basics.parameter.NoAuthenticationProperties;
 import io.swagger.annotations.ApiOperation;

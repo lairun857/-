@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.validate;
+package cn.zwz.basics.security.validate;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import cn.zwz.basics.parameter.CaptchaProperties;

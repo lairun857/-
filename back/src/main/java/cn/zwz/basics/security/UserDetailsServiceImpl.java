@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security;
+package cn.zwz.basics.security;
 
 import cn.zwz.basics.exception.ZwzException;
 import cn.zwz.data.entity.User;

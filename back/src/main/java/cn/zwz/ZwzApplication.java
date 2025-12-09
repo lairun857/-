@@ -1,4 +1,4 @@
-﻿package cn.zwz;
+package cn.zwz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

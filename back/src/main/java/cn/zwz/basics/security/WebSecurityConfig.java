@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security;
+package cn.zwz.basics.security;
 
 import cn.zwz.basics.security.jwt.JwtRoleFilter;
 import cn.zwz.basics.utils.SecurityUtil;

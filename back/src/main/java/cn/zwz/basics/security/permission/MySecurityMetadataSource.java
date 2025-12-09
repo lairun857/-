@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.permission;
+package cn.zwz.basics.security.permission;
 
 import cn.zwz.basics.parameter.CommonConstant;
 import cn.zwz.data.entity.Permission;

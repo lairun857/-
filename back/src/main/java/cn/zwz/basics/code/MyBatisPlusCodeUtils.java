@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.code;
+package cn.zwz.basics.code;
 
 import cn.hutool.core.date.DateUtil;
 import cn.zwz.basics.code.bean.Entity;

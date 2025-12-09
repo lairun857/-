@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.baseClass;
+package cn.zwz.basics.baseClass;
 
 import cn.hutool.core.util.IdUtil;
 import com.baomidou.mybatisplus.annotation.FieldFill;

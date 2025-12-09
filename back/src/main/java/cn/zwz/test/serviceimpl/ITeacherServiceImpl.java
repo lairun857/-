@@ -1,4 +1,4 @@
-﻿package cn.zwz.test.serviceimpl;
+package cn.zwz.test.serviceimpl;
 
 import cn.zwz.test.mapper.TeacherMapper;
 import cn.zwz.test.entity.Teacher;

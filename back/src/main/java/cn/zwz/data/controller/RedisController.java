@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.controller;
+package cn.zwz.data.controller;
 
 import cn.zwz.basics.redis.RedisTemplateHelper;
 import cn.zwz.basics.utils.PageUtil;

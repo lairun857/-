@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.log;
+package cn.zwz.basics.log;
 
 /**
  * 系统日志的类型

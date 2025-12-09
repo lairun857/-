@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.utils;
+package cn.zwz.data.utils;
 
 import cn.zwz.data.vo.OssSetting;
 import cn.zwz.data.vo.OssSettingVo;

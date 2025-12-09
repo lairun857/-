@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.redis;
+package cn.zwz.basics.redis;
 
 import io.swagger.annotations.ApiModelProperty;
 

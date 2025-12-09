@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.mybatisplus;
+package cn.zwz.basics.mybatisplus;
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
 import com.baomidou.mybatisplus.extension.plugins.inner.PaginationInnerInterceptor;

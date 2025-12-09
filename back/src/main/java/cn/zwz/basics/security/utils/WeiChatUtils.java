@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.utils;
+package cn.zwz.basics.security.utils;
 
 import java.io.*;
 import java.net.URL;

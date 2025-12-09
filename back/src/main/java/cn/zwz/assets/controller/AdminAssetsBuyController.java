@@ -1,4 +1,4 @@
-﻿package cn.zwz.assets.controller;
+package cn.zwz.assets.controller;
 
 import cn.zwz.basics.baseVo.PageVo;
 import cn.zwz.basics.baseVo.Result;

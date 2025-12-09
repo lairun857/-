@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.lock;
+package cn.zwz.basics.lock;
 
 import io.swagger.annotations.ApiOperation;
 import org.springframework.context.annotation.Bean;

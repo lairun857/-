@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.utils;
+package cn.zwz.data.utils;
 
 import java.util.Objects;
 

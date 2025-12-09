@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.utils;
+package cn.zwz.basics.utils;
 
 import io.swagger.annotations.ApiModelProperty;
 import io.swagger.annotations.ApiOperation;

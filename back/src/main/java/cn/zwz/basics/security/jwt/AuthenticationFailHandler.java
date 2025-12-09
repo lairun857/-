@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.jwt;
+package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.utils.ResponseUtil;
 import cn.zwz.basics.exception.ZwzAuthException;

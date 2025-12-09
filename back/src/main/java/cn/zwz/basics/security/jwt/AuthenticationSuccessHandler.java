@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.security.jwt;
+package cn.zwz.basics.security.jwt;
 
 import cn.zwz.basics.log.SystemLog;
 import cn.zwz.basics.log.LogType;

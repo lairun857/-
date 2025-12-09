@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.mybatisplus;
+package cn.zwz.basics.mybatisplus;
 
 import cn.zwz.basics.redis.RedisTemplateHelper;
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;

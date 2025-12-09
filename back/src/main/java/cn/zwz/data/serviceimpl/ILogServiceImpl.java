@@ -1,4 +1,4 @@
-﻿package cn.zwz.data.serviceimpl;
+package cn.zwz.data.serviceimpl;
 
 import cn.zwz.data.dao.mapper.LogMapper;
 import cn.zwz.data.entity.Log;

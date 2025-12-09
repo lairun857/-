@@ -1,4 +1,4 @@
-﻿package cn.zwz.test.controller;
+package cn.zwz.test.controller;
 
 import cn.zwz.basics.log.LogType;
 import cn.zwz.basics.log.SystemLog;

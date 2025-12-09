@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.redis;
+package cn.zwz.basics.redis;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

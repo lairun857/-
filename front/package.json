@@ -1,7 +1,7 @@
 {
-  "name": "template",
+  "name": "fixed-assets-system",
   "version": "1.0.0",
-  "description": "高校固定资产管理系统",
+  "description": "基于SpringBoot的固定资产管理系统 - 毕业设计",
   "author": "灿",
   "private": true,
   "scripts": {

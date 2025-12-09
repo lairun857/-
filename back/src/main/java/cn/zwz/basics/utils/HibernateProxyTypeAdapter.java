@@ -1,4 +1,4 @@
-﻿package cn.zwz.basics.utils;
+package cn.zwz.basics.utils;
 
 import com.google.gson.Gson;
 import com.google.gson.TypeAdapter;

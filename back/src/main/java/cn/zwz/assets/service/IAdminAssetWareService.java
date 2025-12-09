@@ -1,4 +1,4 @@
-﻿package cn.zwz.assets.service;
+package cn.zwz.assets.service;
 
 import cn.zwz.assets.entity.AdminAssetWare;
 import com.baomidou.mybatisplus.extension.service.IService;
